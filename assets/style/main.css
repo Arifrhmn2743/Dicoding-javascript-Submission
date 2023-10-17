@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+#content {
+  flex: 5;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem 2rem;
+  padding: 70px;
+}
+
+body {
+  font-family: 'Hind Guntur', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.first-banner {
+  background-image: url(../img/bg-1.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 10;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+header {
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+
+
+.nav-item a {
+  color: black;
+}
+
+.cta {
+  padding: 9px 25px;
+  background-color: rgba(202, 235, 199, 1);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+  color: #05210a;
+}
+
+.cta:hover {
+  background-color: rgba(202, 235, 199, 0.8);
+
+}
+
+.section-title {
+  padding-bottom: 25px;
+  padding: 70px;
+}
+
+.section-title.title {
+  font-size: 44px;
+  line-height: 54px;
+  font-weight: normal;
+}
+
+.section-title.title p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-right: 20px;
+}
+
+.section-title.title.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-title.title img {
+  max-width: 30%;
+  max-height: 50%;
+}
+
+.second-banner {
+  background-image: url(../img/bg-2.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.bookshelf-banner {
+  background-image: url(../img/dino.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 10;
+}
+
+
